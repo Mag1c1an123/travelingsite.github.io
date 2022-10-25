@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose your plan</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/908ee2f95a.js" crossorigin="anonymous"></script>
+    <!--With this link you can add font awesome-->
+</head>
+<body>
+   <nav class="nav">
+    <ul class="nav-menu">
+        <li class="nav-item item-1"><a href="#"><i class="fa-solid fa-tree"></i></a></li>
+        <li class="nav-item item-2"><a href="#">Plans Menu</a></li>
+        <li class="nav-item item-3"><a href="#">VIP Membership</a></li>
+        <li class="nav-item item-4"><a href="#">Sign in</a></li>
+    </ul>
+   </nav>
+
+   <main>
+    <aside class="aside-text">
+        <p class="text-paragraph">Choose between our refined category of plans and pick the most suitable for you, with House of the tree resource you have plenty of options designed for you</p>
+    </aside>
+    <div class="container-plans">
+        <div class="plan plan-lake">
+            <img src="./lake.jpg" alt="lake" id="img-lake">
+            <div class="lake-object" id="lake-object">
+                <p onclick="showLakeInfo()" id="lakeP">To Crystal Lake</p>
+            </div>
+        </div>
+        <div class="plan plan-beach">
+            <img src="./beach.jpg" alt="beach" id="img-beach">
+            <div class="beach-object" id="beach-object">
+                <p onclick="showBeachInfo()" id="beachP">To Blackwater Beach</p>
+            </div>
+        </div>
+        <div class="plan plan-mountain">
+            <img src="./mountain.jpg" alt="mountain" id="img-mountain">
+            <div id="mountain-object">
+                <p id="mountainP" onclick="showMountainInfo()">To Viking Mountain</p>
+            </div>
+        </div>
+    </div>
+   </main>
+
+   <footer>
+    <nav class="nav-footer">
+        <ul class="footer-menu">
+            <li class="footer-item"><a href="#">About us</a></li>
+            <li class="footer-item"><a href="#">Contact us</a></li>
+            <li class="footer-item"><a href="#">Social Media</a></li>
+        </ul>
+    </nav>
+   </footer>
+
+   <script src="script.js"></script>
+</body>
+</html>

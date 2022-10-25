@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    background: rgb(3,0,57);
+    background: linear-gradient(90deg, rgba(3,0,57,1) 0%, rgba(26,77,156,1) 84%, rgba(18,139,198,1) 100%, rgba(53,240,10,1) 100%, rgba(0,212,255,1) 100%);
+    width: 100%;
+    height: 30px;
+    margin: 0 auto;
+    box-shadow: 1px 2px 4px black;
+}
+
+.nav-menu{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    gap: 2px;
+}
+
+.nav-item{
+    list-style: none;
+    margin: 3px auto;
+    cursor: pointer;
+}
+
+.nav-item:hover{
+    font-size: 15px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: bisque;
+}
+
+.nav-item a:hover{
+    color: azure;
+}
+
+.item-4{
+    margin-left: 30px;
+}
+
+.aside-text{
+    width: 95%;
+    margin: 15px auto;
+}
+
+.container-plans{
+    margin: 5px auto;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    width: 70%;
+    height: 400px;
+    overflow-x: scroll;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(26,77,156,1);
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgb(32, 26, 57);
+    border-radius: 10px;
+    height: 25px;
+  }
+
+
+.plan img{
+    width: 250px;
+    height: 300px;
+}
+
+.plan-lake{
+    position: relative;
+}
+
+.plan-lake .lake-object{
+    position: absolute;
+    bottom: 250px;
+    left: 100px;
+    color: azure;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 3px 3px black;
+    transform: translateX(-35px);
+    cursor: pointer;
+}
+
+.lake-object-function{
+    position: absolute;
+    bottom: 250px;
+    left: 100px;
+    color: rgb(17, 19, 19);
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 3px 3px rgb(162, 164, 162);
+    transform: translateX(-35px);
+    word-wrap: break-word;
+    cursor: pointer;
+}
+
+.plan-lake p:hover{
+    font-size: 20px;
+    color: bisque;
+}
+
+.plan-lake-function{
+    opacity: 0.5;
+}
+
+.plan-beach{
+    position: relative;
+}
+
+.plan-beach p{
+    position: absolute;
+    bottom: 250px;
+    left: 100px;
+    color: azure;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 3px 3px black;
+    transform: translateX(-35px);
+    cursor: pointer;
+}
+
+.plan-beach p:hover{
+    font-size: 20px;
+    color: bisque;
+}
+
+.plan-mountain{
+    position: relative;
+}
+
+.plan-mountain p{
+    position: absolute;
+    bottom: 250px;
+    left: 100px;
+    color: azure;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 3px 3px black;
+    transform: translateX(-50px);
+    cursor: pointer;
+}
+
+.plan-mountain p:hover{
+    font-size: 20px;
+    color: bisque;
+}
+
+.nav-footer{
+    background: rgb(3,0,57);
+    background: linear-gradient(90deg, rgba(3,0,57,1) 0%, rgba(26,77,156,1) 84%, rgba(18,139,198,1) 100%, rgba(53,240,10,1) 100%, rgba(0,212,255,1) 100%);
+    position: relative;
+    bottom: 0;
+    top: 15px;
+    width: 100%;
+    height: 2.5rem;
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+}
+
+.footer-item{
+    list-style: none;
+    align-items: center;
+}
+
+.footer-item a{
+    text-decoration: none;
+    color: bisque;
+}
